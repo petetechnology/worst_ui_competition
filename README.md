@@ -14,6 +14,13 @@ We want to see just how creative you can get while still demonstrating your tech
 
 Remember, while the UI should be functionally terrible, it doesn’t have to be ugly. A beautifully styled but utterly incomprehensible interface could be just as effective. We recommend using a styling framework like Tailwind CSS to add that extra layer of polish to your disastrously bad design.
 
+## Submission Guidelines
+
+To submit your entry, please fork the provided repository and make your changes in your fork. Ensure that your forked repository’s README.md includes detailed instructions on how to execute and run your project. This will help us to easily test and experience your horrendous UI.
+
+- [GitHub Forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
+
+
 ## Resources
 
 Here are some resources to help you get started:
