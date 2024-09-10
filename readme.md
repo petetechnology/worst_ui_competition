@@ -14,20 +14,27 @@ Este projeto implementa um teclado virtual que reorganiza aleatoriamente as letr
 ## Tecnologias Utilizadas 🛠️
 
 HTML5: Para a estrutura da página.
+
 CSS3: Para o estilo da interface, incluindo responsividade.
+
 JavaScript: Para a lógica de manipulação do teclado e a troca aleatória das letras.
 
 ## Como Usar 🚀
 
-Clone este repositório e execute o arquivo index.html ou acesse o link: .
+Clone este repositório e execute o arquivo index.html ou <a hrfe="https://kaue-alves.github.io/desafio-pete/">Clique Aqui</a>.
+
 Abra o arquivo index.html no seu navegador.
+
 Pressione as teclas virtuais no teclado para digitar.
+
 As teclas trocam aleatoriamente seus valores a cada 1,7 segundos ou quando clicadas.
+
 A sequência de teclas pressionadas será exibida na área da tela.
 
 ## Estilização e Layout 🎨
 
 O layout é adaptado para telas de diferentes tamanhos. Em dispositivos móveis, os botões do teclado são redimensionados para proporcionar uma experiência de uso confortável.
+
 As teclas têm efeitos de hover, mudando de cor quando o cursor passa sobre elas.
 
 ## Personalização ⚙️
