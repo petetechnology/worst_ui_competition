@@ -4,7 +4,7 @@ Este projeto implementa um teclado virtual que reorganiza aleatoriamente as letr
 
 ## Funcionalidades ✨
 
-- As teclas do teclado virtual têm seus valores alterados aleatoriamente a cada 1,7 segundos.
+- As teclas do teclado virtual têm seus valores alterados aleatoriamente a cada 1,5 segundos.
 - O teclado inclui as teclas de letras e teclas especiais como "espaço" e "apagar".
 - Cada vez que uma tecla é pressionada, seu valor é registrado e exibido na tela.
 - Se a tecla "apagar" for pressionada, o último caractere digitado será removido.
@@ -27,7 +27,7 @@ Abra o arquivo index.html no seu navegador.
 
 Pressione as teclas virtuais no teclado para digitar.
 
-As teclas trocam aleatoriamente seus valores a cada 1,7 segundos ou quando clicadas.
+As teclas trocam aleatoriamente seus valores a cada 1,5 segundos ou quando clicadas.
 
 A sequência de teclas pressionadas será exibida na área da tela.
 
@@ -41,8 +41,6 @@ As teclas têm efeitos de hover, mudando de cor quando o cursor passa sobre elas
 
 Se quiser alterar o intervalo de tempo entre as reorganizações das teclas, você pode modificar o valor no método setInterval no arquivo src/js/index.js:
 
-setInterval(mudarLetras, 1700); // Altere 1700 para o valor desejado (em milissegundos)
-
-## Contribuindo 🤝
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+```javascript
+setInterval(mudarLetras, 1500); // Altere 1500 para o valor desejado (em milissegundos)
+```
