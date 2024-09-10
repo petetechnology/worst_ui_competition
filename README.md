@@ -21,7 +21,7 @@ JavaScript: Para a lógica de manipulação do teclado e a troca aleatória das 
 
 ## Como Usar 🚀
 
-Clone este repositório e execute o arquivo index.html ou <a hrfe="https://kaue-alves.github.io/desafio-pete/">Clique Aqui</a>.
+Clone este repositório e execute o arquivo index.html ou <a href="https://kaue-alves.github.io/desafio-pete/">Clique Aqui</a>.
 
 Abra o arquivo index.html no seu navegador.
 
