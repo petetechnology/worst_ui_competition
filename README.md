@@ -19,7 +19,7 @@ Este projeto implementa um teclado virtual que reorganiza aleatoriamente as letr
 
 ## Como Usar 🚀
 
-1. Clone este repositório e execute o arquivo `index.html` ou <a href="https://kaue-alves.github.io/worst_ui_competition/"Clique Aqui.</a>
+1. Clone este repositório e execute o arquivo `index.html` ou [Clique Aqui.](https://kaue-alves.github.io/worst_ui_competition/)
 2. Abra o arquivo `index.html` no seu navegador.
 
 3. Pressione as teclas virtuais no teclado para digitar.
