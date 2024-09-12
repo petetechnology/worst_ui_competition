@@ -6,10 +6,10 @@ The **Worst UI Competition** is a project featuring a virtual keyboard that rand
 ## Features ✨
 
 - **Random Key Values:** The letters on the virtual keyboard change randomly every 1.8 seconds.
-- **Key Types:** The keyboard includes numeric keys, letters, and special keys like "space" and "delete."
+- **Key Types:** The keyboard includes numeric keys, letters, and special keys like "espaço" and "apagar."
 - **Input Recording:** Each time a key is pressed, its value is recorded and displayed in the form fields.
-- **Delete Functionality:** Pressing the "delete" key removes the last character entered.
-- **Space Key:** Pressing the "space" key adds a blank space to the sequence.
+- **Delete Functionality:** Pressing the "apagar" key removes the last character entered.
+- **Space Key:** Pressing the "espaço" key adds a blank space to the sequence.
 - **Responsive Design:** The page design adapts to different screen sizes (desktop and mobile).
 
 ## Technologies Used 🛠️
