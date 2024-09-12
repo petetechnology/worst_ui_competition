@@ -19,7 +19,7 @@ main {
     background-color: #2d2d2d;
     border-radius: 10px;
     width: 90%;
-    max-width: 400px;  /* Dimensão ajustada para um formulário mais compacto */
+    max-width: 600px;  /* Dimensão ajustada para um formulário mais compacto */
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
