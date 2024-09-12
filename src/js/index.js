@@ -7,9 +7,8 @@ const inputSenha = document.querySelector("#senha");
 const btnCadastrar = document.querySelector("#btnCadastrar");
 const containerTeclado = document.querySelector("#containerTeclado");
 
-let campoAtivo = null; // Controla qual campo está ativo para receber os valores
+let campoAtivo = null;
 
-// Função para mudar as letras aleatoriamente
 function mudarLetras() {
     let teclasDisponiveis = [...teclas];
 
@@ -19,19 +18,15 @@ function mudarLetras() {
         teclasDisponiveis.splice(indiceAleatorio, 1);
     });
 
-    // Restaura a lista de teclas após o uso
     teclas = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Ç", "@", ".", "apagar", "Z", "X", "C", "espaço", "V", "B", "N", "M"];
 }
 
-// A cada 1.5 segundos, as letras são reorganizadas automaticamente
-setInterval(mudarLetras, 1500);
+setInterval(mudarLetras, 1800);
 
-// Evento para selecionar o campo ativo
 inputNome.addEventListener('focus', () => campoAtivo = inputNome);
 inputEmail.addEventListener('focus', () => campoAtivo = inputEmail);
 inputSenha.addEventListener('focus', () => campoAtivo = inputSenha);
 
-// Evento de clique no teclado
 containerTeclado.addEventListener("click", (e) => {
     let valorTecla = e.target.value;
 
@@ -45,11 +40,10 @@ containerTeclado.addEventListener("click", (e) => {
         campoAtivo.value += valorTecla;
     }
 
-    // Muda as letras após o clique
     mudarLetras();
 });
 
-// Função para exibir o alerta de cadastro bem-sucedido
+
 btnCadastrar.addEventListener("click", () => {
     const nome = inputNome.value.trim();
     const email = inputEmail.value.trim();
