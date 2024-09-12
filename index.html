@@ -6,14 +6,38 @@
     <link rel="stylesheet" href="src/css/style.css">
     <script src="src/js/index.js" defer></script>
     <title>Desafio</title>
-
 </head>
 <body>
     <main>
-        <div id="containerTela">
+        <form id="formCadastro">
+            <div>
+                <label for="nome">Nome:</label>
+                <input required type="text" id="nome" name="nome" readonly>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input required type="email" id="email" name="email" readonly>
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input required type="password" id="senha" name="senha" readonly>
+            </div>
+            <button type="button" id="btnCadastrar">Cadastrar</button>
+        </form>
 
-        </div>
         <div id="containerTeclado">
+            <div id="linhaDeNumeros">
+                <input type="button" value="1" id="n1">
+                <input type="button" value="2" id="n2">
+                <input type="button" value="3" id="n3">
+                <input type="button" value="4" id="n4">
+                <input type="button" value="5" id="n5">
+                <input type="button" value="6" id="n6">
+                <input type="button" value="7" id="n7">
+                <input type="button" value="8" id="n8">
+                <input type="button" value="9" id="n9">
+                <input type="button" value="0" id="n0">
+            </div>
 
             <div id="linhaDeCima">
                 <input type="button" value="Q" id="s1">
@@ -51,6 +75,8 @@
                 <input type="button" value="B" id="s27">
                 <input type="button" value="N" id="s28">
                 <input type="button" value="M" id="s29">
+                <input type="button" value="@" id="s30">
+                <input type="button" value="." id="s31">
             </div>
         </div>
     </main>
