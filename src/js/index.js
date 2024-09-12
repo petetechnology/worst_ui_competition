@@ -7,6 +7,12 @@ const inputSenha = document.querySelector("#senha");
 const btnCadastrar = document.querySelector("#btnCadastrar");
 const containerTeclado = document.querySelector("#containerTeclado");
 
+function limparInputs() {
+    inputNome.value = "";
+    inputEmail.value = "";
+    inputSenha.value = "";
+}
+
 let campoAtivo = null;
 
 function mudarLetras() {
@@ -43,15 +49,32 @@ containerTeclado.addEventListener("click", (e) => {
     mudarLetras();
 });
 
+// Função para validar o formato do email
+function validarEmail(email) {
+    const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regexEmail.test(email);
+}
 
 btnCadastrar.addEventListener("click", () => {
     const nome = inputNome.value.trim();
     const email = inputEmail.value.trim();
     const senha = inputSenha.value.trim();
 
-    if (nome && email && senha) {
-        alert(`Usuário ${nome} cadastrado com sucesso! :)`);
-    } else {
+    if (!nome || !email || !senha) {
         alert("Por favor, preencha todos os campos.");
+        limparInputs()
+        return;
     }
+
+    if (!validarEmail(email)) {
+        alert("Por favor, insira um email válido.");
+        limparInputs()
+        return;
+    }
+
+    // Mensagem personalizada de sucesso
+    alert(`Olá usuário [ ${nome} ], esse é seu email [ ${email} ] e essa é sua senha [ ${senha} ]. Mas acho que você já sabia :)`);
+
+    // Limpar os campos após o cadastro
+    limparInputs();
 });
