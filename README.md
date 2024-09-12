@@ -20,7 +20,7 @@ The **Worst UI Competition** is a project featuring a virtual keyboard that rand
 
 ## How to Use 🚀
 
-1. Clone this repository and open the `index.html` file or [Click Here](https://kaue-alves.github.io/worst_ui_competition/).
+1. Clone this repository and open the `index.html` file or [Click Here](https://worst-ui-competition-beta.vercel.app/).
 2. Open the `index.html` file in your web browser.
 3. Press the virtual keys on the keyboard to type.
 4. The keys will randomly change their values every 1.8 seconds or when clicked.
