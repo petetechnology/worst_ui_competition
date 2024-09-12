@@ -1,42 +1,39 @@
-# Desafio - Teclado Virtual com Letras Aleatórias 🎹
+# Worst UI Competition - Random Letter Keyboard 🎹
 
-Este projeto implementa um teclado virtual que reorganiza aleatoriamente as letras de suas teclas após um intervalo de tempo ou quando uma tecla é pressionada. O projeto utiliza HTML, CSS e JavaScript.
+## Description
+The **Worst UI Competition** is a project featuring a virtual keyboard that randomly shuffles the letters on its keys after a set interval or when a key is pressed. This project utilizes HTML, CSS, and JavaScript to create a deliberately confusing and playful user interface.
 
-## Funcionalidades ✨
+## Features ✨
 
-- As teclas do teclado virtual têm seus valores alterados aleatoriamente a cada 1,8 segundos.
-- O teclado inclui teclas numéricas, letras, e teclas especiais como "espaço" e "apagar".
-- Cada vez que uma tecla é pressionada, seu valor é registrado e exibido na tela.
-- Se a tecla "apagar" for pressionada, o último caractere digitado será removido.
-- Se a tecla "espaço" for pressionada, um espaço em branco será adicionado à sequência.
-- O design da página é responsivo, adaptando-se a diferentes tamanhos de tela (desktop e mobile).
+- **Random Key Values:** The letters on the virtual keyboard change randomly every 1.8 seconds.
+- **Key Types:** The keyboard includes numeric keys, letters, and special keys like "space" and "delete."
+- **Input Recording:** Each time a key is pressed, its value is recorded and displayed in the form fields.
+- **Delete Functionality:** Pressing the "delete" key removes the last character entered.
+- **Space Key:** Pressing the "space" key adds a blank space to the sequence.
+- **Responsive Design:** The page design adapts to different screen sizes (desktop and mobile).
 
-## Tecnologias Utilizadas 🛠️
+## Technologies Used 🛠️
 
-- **HTML5**: Para a estrutura da página.
-- **CSS3**: Para o estilo da interface, incluindo responsividade.
-- **JavaScript**: Para a lógica de manipulação do teclado e a troca aleatória das letras.
+- **HTML5:** For the page structure.
+- **CSS3:** For styling the interface, including responsiveness.
+- **JavaScript:** For keyboard manipulation logic and random letter shuffling.
 
-## Como Usar 🚀
+## How to Use 🚀
 
-1. Clone este repositório e execute o arquivo `index.html` ou [Clique Aqui.](https://kaue-alves.github.io/worst_ui_competition/)
-2. Abra o arquivo `index.html` no seu navegador.
+1. Clone this repository and open the `index.html` file or [Click Here](https://kaue-alves.github.io/worst_ui_competition/).
+2. Open the `index.html` file in your web browser.
+3. Press the virtual keys on the keyboard to type.
+4. The keys will randomly change their values every 1.8 seconds or when clicked.
+5. The sequence of pressed keys will be displayed in the form fields.
 
-3. Pressione as teclas virtuais no teclado para digitar.
+## Styling and Layout 🎨
 
-4. As teclas trocam aleatoriamente seus valores a cada 1,8 segundos ou quando clicadas.
+- The layout is adapted for various screen sizes. On mobile devices, the keyboard buttons are resized to provide a comfortable user experience.
+- The keys have hover effects, changing color when the cursor hovers over them.
 
-5. A sequência de teclas pressionadas será exibida nos campos do formulário.
+## Customization ⚙️
 
-## Estilização e Layout 🎨
-
-- O layout é adaptado para telas de diferentes tamanhos. Em dispositivos móveis, os botões do teclado são redimensionados para proporcionar uma experiência de uso confortável.
-- As teclas têm efeitos de hover, mudando de cor quando o cursor passa sobre elas.
-
-## Personalização ⚙️
-
-Se quiser alterar o intervalo de tempo entre as reorganizações das teclas, você pode modificar o valor no método `setInterval` no arquivo `src/js/index.js`:
+If you want to change the interval between key reshuffles, you can modify the value in the `setInterval` method in the `src/js/index.js` file:
 
 ```javascript
-setInterval(mudarLetras, 1800); // Altere 1800 para o valor desejado (em milissegundos)
-```
+setInterval(mudarLetras, 1800); // Change 1800 to the desired value (in milliseconds)
