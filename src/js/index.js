@@ -19,7 +19,7 @@ function mudarLetras() {
 }
 
 // A cada 1,3 segundos (1300 milissegundos), as letras são reorganizadas automaticamente
-setInterval(mudarLetras, 1700);
+setInterval(mudarLetras, 1500);
 
 // Evento de clique no teclado que também muda as letras aleatoriamente ao clicar
 containerTeclado.addEventListener("click", (e) => {
