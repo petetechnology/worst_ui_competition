@@ -49,7 +49,6 @@ containerTeclado.addEventListener("click", (e) => {
     mudarLetras();
 });
 
-// Função para validar o formato do email
 function validarEmail(email) {
     const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regexEmail.test(email);
@@ -72,9 +71,7 @@ btnCadastrar.addEventListener("click", () => {
         return;
     }
 
-    // Mensagem personalizada de sucesso
     alert(`Olá usuário [ ${nome} ], esse é seu email [ ${email} ] e essa é sua senha [ ${senha} ]. Mas acho que você já sabia :)`);
 
-    // Limpar os campos após o cadastro
     limparInputs();
 });
