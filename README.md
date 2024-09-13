@@ -1,40 +1,39 @@
-# Worst UI Competition
+# Worst UI Competition - Random Letter Keyboard 🎹
 
-Welcome to the **Worst UI Competition**! The challenge here is to design the most atrocious, confusing, and laughably bad user interface for a web application. While the theme is open-ended, we encourage you to take on a specific challenge: **a scoring system for judges at the Olympic Games**.
+## Description
+The **Worst UI Competition** is a project featuring a virtual keyboard that randomly shuffles the letters on its keys after a set interval or when a key is pressed. This project utilizes HTML, CSS, and JavaScript to create a deliberately confusing and playful user interface.
 
-## Objective
+## Features ✨
 
-Your task is to create a scoring system that’s so poorly designed it would leave even the most experienced Olympic judges scratching their heads. We’re looking for a UI that defies all user experience best practices—whether it’s impossible to navigate, overloaded with irrelevant information, or just plain absurd. The more frustrating, the better!
+- **Random Key Values:** The letters on the virtual keyboard change randomly every 1.8 seconds.
+- **Key Types:** The keyboard includes numeric keys, letters, and special keys like "espaço" and "apagar."
+- **Input Recording:** Each time a key is pressed, its value is recorded and displayed in the form fields.
+- **Delete Functionality:** Pressing the "apagar" key removes the last character entered.
+- **Space Key:** Pressing the "espaço" key adds a blank space to the sequence.
+- **Responsive Design:** The page design adapts to different screen sizes (desktop and mobile).
 
-## Creativity and Technical Execution
+## Technologies Used 🛠️
 
-We want to see just how creative you can get while still demonstrating your technical skills. There are no limits on the technology you can use, but frameworks like React or Vue might give you the edge you need to execute your hilariously bad ideas.
+- **HTML5:** For the page structure.
+- **CSS3:** For styling the interface, including responsiveness.
+- **JavaScript:** For keyboard manipulation logic and random letter shuffling.
 
-## Styling
+## How to Use 🚀
 
-Remember, while the UI should be functionally terrible, it doesn’t have to be ugly. A beautifully styled but utterly incomprehensible interface could be just as effective. We recommend using a styling framework like Tailwind CSS to add that extra layer of polish to your disastrously bad design.
+1. Clone this repository and open the `index.html` file or [Click Here](https://worst-ui-competition-beta.vercel.app/).
+2. Open the `index.html` file in your web browser.
+3. Press the virtual keys on the keyboard to type.
+4. The keys will randomly change their values every 1.8 seconds or when clicked.
+5. The sequence of pressed keys will be displayed in the form fields.
 
-## Submission Guidelines
+## Styling and Layout 🎨
 
-To submit your entry, please fork the provided repository and make your changes in your fork. Ensure that your forked repository’s README.md includes detailed instructions on how to execute and run your project. This will help us to easily test and experience your horrendous UI.
+- The layout is adapted for various screen sizes. On mobile devices, the keyboard buttons are resized to provide a comfortable user experience.
+- The keys have hover effects, changing color when the cursor hovers over them.
 
-- [GitHub Forks](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks)
+## Customization ⚙️
 
+If you want to change the interval between key reshuffles, you can modify the value in the `setInterval` method in the `src/js/index.js` file:
 
-## Resources
-
-Here are some resources to help you get started:
-
-- [React Documentation](https://react.dev/)
-- [Vue.js Documentation](https://vuejs.org/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/)
-
-## Examples
-
-For some inspiration, check out the following video on YouTube that showcases examples of hilariously bad UI designs:
-
-[Watch on YouTube](https://www.youtube.com/watch?v=dAAj1_lfvZA)
-
-Feel free to draw ideas from these examples, but remember, the goal is to create something uniquely terrible and your own!
-
-### Get ready to create a scoring system that would make the Olympic Games unforgettable—for all the wrong reasons!
+```javascript
+setInterval(mudarLetras, 1800); // Change 1800 to the desired value (in milliseconds)
